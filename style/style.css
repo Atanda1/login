@@ -1,0 +1,446 @@
+@import "compass/css3";
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo1 img{
+    height: 60px;
+    width: 112px;
+    margin: 58.5px auto auto 62px;
+   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ .ultimate-div {
+     background-color: #ECFFE5;
+     
+ }
+ .first-div {
+     position: relative;
+    height: 665px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background-color:#F4F4F4;
+    
+} 
+ .second-div{ 
+     position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background-color: #ECFFE5;
+    height: 665px;
+   
+}
+.banner {
+    
+    place-items: center center;
+    margin: 100px 200px auto 200px;
+}
+   
+
+.center-me {
+    color: black;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .login {
+      line-height: 27px;
+      padding-bottom: 9px;
+      color: #8E8E8E;		
+      font-size: 22px;	
+      height: 27px;
+      font-weight: 305px;
+      
+  }
+ 
+.login-comment {
+    padding-bottom: 47.04px;
+    height: 16px;	
+   
+	color: #2C2C2C;	
+    font-size: 13px;
+	line-height: 16px;
+}
+.login-comment span {
+        height: 16px;
+        font-family: 'Montserrat Bold';
+        color: #9A7B2D;
+        font-size: 13px;
+        font-weight: bold;
+        line-height: 16px;
+}
+button{
+    background-color: #9A7B2D;
+    height: 39.97px;	
+    width: 387px;
+    	border-radius: 5px;
+}
+
+  html .login-wrap h2 {
+    text-align: center;
+    font-weight: 200;
+    font-size: 2em;
+    margin-top: 10px;
+    color: #34495e;
+  }
+  html .login-wrap .form {
+    padding-top: 20px;
+  }
+  html  .form input[type="text"] {
+    width: 387px;
+    margin-bottom: 25px;
+    height: 40px;
+    border-radius: 5px;
+    outline: 0;
+   
+  }
+
+ 
+  .form button {
+      margin-top: 25px;
+      border: none;
+      width: 387px;
+      height: 40px;
+      border-radius: 5px;
+      outline: 0;
+     
+  }
+  
+   .form input[type="text"],  .form input[type="password"] {
+    border: 1px solid #bbb;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    height: 40px;
+    width: 387px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 9px;
+ 
+  }
+
+
+  .anime {
+    position: absolute;
+    margin-top: 260px;
+    padding-right: 80px;
+    left: -40px; 
+}
+
+.anime1 {
+  position: absolute;
+  margin-top: 130px;
+  padding-left: 450px;
+ 
+}
+
+.anime2 {
+  position: absolute;
+  margin-top: 60px;
+  padding-right: 120px;
+  padding-left: 250px;
+}
+
+
+.anime3 {
+  position: absolute;
+  margin-top: 80px;
+  padding-right: 200px;
+  left: -70px;  
+
+}
+
+.anime4 {
+  height: 118.93px;	
+  width: 136.47px;	
+  position: relative;
+  margin-left: 200px;
+  margin-top: 320px;
+}
+.anime5 {	
+  position: relative;
+  margin-left: 250px;
+  height: 88px;	width: 100px;
+}
+
+.self-service {
+    height: 37px;
+    width: 185px;	
+    font-size: 30px;	
+    position: absolute;
+    margin-top: 192px;
+    margin-left: 300px;
+}
+
+.serviceComment {
+    display: flex;
+    height: 100px;
+    max-width: 400px;	
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 180px;
+    font-size: 14px;
+}
+.passwordComment {
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400px;
+    line-height: 15px;
+    font-weight: 600;
+}
+
+.footer {
+    display: inline-block;
+    
+}
+
+.footie {
+    padding-right: 15px;
+    padding-left: 30px;
+    font-size: 13px;
+    display: inline-block;
+    padding-bottom: 40px; 
+}
+
+.container {
+    text-align: center;
+    margin-left: 65px;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .ultimate-div {
+      
+    }
+     
+     .first-div {
+         position: relative;
+         background-color:#F4F4F4;
+        height: 665px;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        align-items: center;
+        margin: 0;
+        
+    } 
+     .second-div{ 
+         position: relative;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        background-color: #ECFFE5;
+        height: 665px;
+       width: 50%;
+       margin: 0;
+    }
+
+    .banner {
+        align-items: center;
+        place-items: center center;
+        margin: 50px 70px auto 70px;
+    }
+       
+    
+    .center-me {
+        color: black;
+        margin: auto;
+        text-align: center;
+      }
+      
+      .login {
+          line-height: 27px;
+          padding-bottom: 9px;
+          color: #8E8E8E;		
+          font-size: 22px;	
+          height: 27px;
+          font-weight: 305px;
+          
+      }
+     
+    .login-comment {
+        padding-bottom: 47.04px;
+        height: 16px;	
+       
+        color: #2C2C2C;	
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .login-comment span {
+            height: 16px;
+            font-family: 'Montserrat Bold';
+            color: #9A7B2D;
+            font-size: 13px;
+            font-weight: bold;
+            line-height: 16px;
+    }
+    button{
+        background-color: #9A7B2D;
+        height: 39.97px;	
+        width: 387px;
+            border-radius: 5px;
+    }
+    
+      html .login-wrap h2 {
+        text-align: center;
+        font-weight: 200;
+        font-size: 2em;
+        margin-top: 10px;
+        color: #34495e;
+      }
+      html .login-wrap .form {
+        padding-top: 20px;
+      }
+      html  .form input[type="text"] {
+        width: 387px;
+        margin-bottom: 25px;
+        height: 40px;
+        border-radius: 5px;
+        outline: 0;
+       
+      }
+      .form  {
+          text-align: center;
+      }
+     
+      .form button {
+          margin-top: 25px; 
+          border: none;
+          width: 387px;
+          height: 40px;
+          border-radius: 5px;
+          outline: 0;
+          align-items: center;
+      }
+      
+       .form input[type="text"],  .form input[type="password"] {
+        border: 1px solid #bbb;
+        padding: 0 0 0 10px;
+        font-size: 14px;
+        height: 40px;
+        width: 387px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         border-radius: 9px;
+     
+      }
+      .anime1 {
+        position: absolute;
+        margin-top: 130px;
+        padding-left: 390px;
+       
+      }
+      
+     
+
+      }   
+      @media only screen and (max-width: 800px) {
+        .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            background: #F4F4F4;
+        }
+         
+         .first-div {
+             position: relative;
+             background-color:#ECFFE5 ;
+             order: 2;
+            height: 665px;
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex: 1;
+        
+            
+            
+        } 
+         .second-div{ 
+             position: relative;
+             order:1;
+            display: flex;
+            flex-direction: column;
+            flex-basis: 100%;
+            flex: 1;
+            background-color: #ECFFE5;
+            height: 665px;
+            
+        }
+        .form {
+            text-align: center;
+        }
+        .form button {
+            margin-top: 25px;
+           
+            border: none;
+            width: 387px;
+            height: 40px;
+            border-radius: 5px;
+            outline: 0;
+            text-align: center;
+           
+        }
+        .banner {
+            align-items: center;
+            place-items: center center;
+            margin: 50px 70px auto 70px;
+        }
+           
+    }
+
+    @media only screen and (max-width: 600px) {
+        .first-div {
+            position: relative;
+            background-color: #F4F4F4;
+            order: 2;
+           height: 665px;
+           display: flex;
+           flex-direction: column;
+           flex-basis: 100%;
+           flex: 1;
+           max-width: 500px; 
+           width: 500px;
+           
+       } 
+        .second-div{ 
+            position: relative;
+            order:1;
+           display: flex;
+           flex-direction: column;
+           flex-basis: 100%;
+           flex: 1;
+           background-color: #ECFFE5;
+           height: 665px;
+           width: 500px;
+           max-width: 500px; 
+       }    
+       .banner {
+        align-items: center;
+        place-items: center center;
+        margin: 0px;
+    }
+    }
